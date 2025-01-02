@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,14 +7,12 @@ body {
     background-color: #f4f4f9;
     color: #333;
 }
-
 header {
     background-color: #6c63ff;
     color: white;
     padding: 20px;
     text-align: center;
 }
-
 main {
     margin: 20px auto;
     max-width: 800px;
@@ -22,11 +21,9 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 section {
     margin-bottom: 20px;
 }
-
 footer {
     text-align: center;
     padding: 10px;
