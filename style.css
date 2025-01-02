@@ -31,10 +31,11 @@ body {
 }
 
 .image img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 240px; /* Setzt die Breite des Bildes */
+    height: 240px; /* Setzt die Höhe des Bildes gleich der Breite */
+    border-radius: 50%; /* Macht das Bild rund */
+    object-fit: cover; /* Sorgt dafür, dass das Bild den Container ausfüllt */
+    object-position: 0% 35%; /* 0% bedeutet links, 10% bedeutet 10% von oben */
 }
 
 .intro {
