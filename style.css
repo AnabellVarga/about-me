@@ -13,7 +13,7 @@ body {
 
 /* Container */
 .container {
-    width: 90%;
+    width: 95%;
     max-width: 1200px;
     margin: 20px auto;
     background-color: #fff;
@@ -30,17 +30,15 @@ body {
     margin-bottom: 40px;
 }
 
-.image img {
-    width: 240px; /* Setzt die Breite des Bildes */
-    height: 240px; /* Setzt die Höhe des Bildes gleich der Breite */
-    border-radius: 50%; /* Macht das Bild rund */
-    object-fit: cover; /* Sorgt dafür, dass das Bild den Container ausfüllt */
-    object-position: 0% 35%; /* 0% bedeutet links, 10% bedeutet 10% von oben */
+.backgroundimage {
+    max-width: 100%;
+    height: auto; 
+
 }
 
 .intro {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .intro h1 {
@@ -51,7 +49,7 @@ body {
 .intro .title {
     font-size: 1.2rem;
     color: #777;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .intro .quote {
@@ -68,7 +66,7 @@ h2 {
 
 ul {
     list-style-type: none;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 ul li {
@@ -78,7 +76,7 @@ ul li {
 
 /* Berufserfahrung */
 .job {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .job h3 {
@@ -87,7 +85,7 @@ ul li {
 }
 
 .job ul {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 /* Links */
