@@ -1,1 +1,63 @@
+  body {
+    font-family:'Andale Mono';
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  a {
+    font-family:'Andale Mono';
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  a:hover {
+    font-family:'Andale Mono';
+    color: rgba(47, 139, 232, 0.5);
+  }
+
+  h1 {
+    font-family: 'Andale Mono';
+    color: #000000;
+  }
+  
+  h2 {
+    font-family: 'Andale Mono';
+    color: rgba(47, 139, 232, 0.5);
+
+  }
+
+  h3 {
+    font-family: 'Andale Mono';
+    color: rgba(1, 37, 55, 0.5);
+
+  }
+  
+  h4 {
+    font-family: 'Andale Mono';
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+
+  }
+
+  h5 {
+    font-family: 'Andale Mono';
+    color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  h6 {
+    font-family: 'Andale Mono';
+    color: rgba(63, 63, 63, 0.5);
+
+  }
+
+  p {
+    font-family: 'Andale Mono';
+    color: rgb(0, 0, 0);
+
+  }
+  
+  li {
+    font-family: 'Andale Mono';
+    color: rgb(0, 0, 0);
+
+  }
 
