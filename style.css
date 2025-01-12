@@ -3,6 +3,28 @@
     color: rgba(0, 0, 0, 0.5);
   }
 
+.Introduction {
+    background-color: rgb(243, 246, 248);
+    margin: 0;
+    padding: 0;
+}
+
+.AboutMe {
+    background-color: rgb(232, 242, 250);
+}
+
+.WorkExperience {
+    background-color: rgb(226, 235, 242);
+}
+
+.Contact {
+    background-color: rgb(225, 227, 228);
+}
+
+.Footer {
+    background-color: rgb(255, 255, 255);
+}
+
 .image-container {
     position: relative;
     width: 100%;
@@ -78,7 +100,7 @@
   th {
     border: 2px solid #575757;
     padding: 8px;
-    background-color:rgba(178, 214, 250, 0.5) 
+    background-color:rgba(129, 191, 239, 0.5);
   }
 
   h1 {
