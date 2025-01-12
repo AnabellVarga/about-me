@@ -13,6 +13,12 @@
     color: rgba(47, 139, 232, 0.5);
   }
 
+  th {
+    border: 2px solid #575757;
+    padding: 8px;
+    background-color:rgba(178, 214, 250, 0.5) 
+  }
+
   h1 {
     font-family: 'Andale Mono';
     color: #000000;
@@ -32,8 +38,7 @@
   
   h4 {
     font-family: 'Andale Mono';
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: bold;
+    color: #000000;
 
   }
 
@@ -55,6 +60,11 @@
 
   }
   
+  th {
+    font-family: 'Andale Mono';
+    color: rgb(0, 0, 0);
+
+  }
   li {
     font-family: 'Andale Mono';
     color: rgb(0, 0, 0);
