@@ -2,7 +2,69 @@
     font-family:'Andale Mono';
     color: rgba(0, 0, 0, 0.5);
   }
+
+.image-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto; /* Center the image */
+  }
+
+.image-container img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    display: block;
+      }
+
+.overlay-text1 {
+    position: absolute; /* Position text on top of the image */
+    top: 15%; /* Vertically center the text */
+    left: 10%; /* Horizontally center the text */
+    color: white;
+    font-size: 35px; /* Adjust text size */
+    font-weight: bold; /* Make text bold */
+  }
+
+.overlay-text2 {
+    position: absolute; /* Position text on top of the image */
+    top: 27%; /* Vertically center the text */
+    left: 10%; /* Horizontally center the text */
+    color: rgb(107, 108, 111);
+    font-size: 15px; /* Adjust text size */
+    font-weight: bold;/* Make text bold */
+  }
+
+.links a {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none; /* Removes the underline from the links */
+    transition: background-color 0.3s, color 0.3s;
+}
+  /* Optional: Change link appearance on hover */
+.links a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+
+  }
+
+.link1 {
+    top: 40%; /* Position the first link */
+    left: 10%; /* Position it X% from the left */
+  }
   
+.link2 {
+    top: 55%; /* Position the second link */
+    left: 10%; /* Position it X% from the left */
+  }
+  
+.link3 {
+    top: 70%; /* Position the third link */
+    left: 10%; /* Position it X% from the left */
+  }
+
   a {
     font-family:'Andale Mono';
     color: rgba(0, 0, 0, 0.5);
@@ -70,4 +132,3 @@
     color: rgb(0, 0, 0);
 
   }
-
