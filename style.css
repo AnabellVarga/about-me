@@ -1,3 +1,15 @@
+/* User agent stylesheets often have default CSS rules that set default values for padding and margin. This affects how the browser displays HTML elements, which can make it difficult for a developer to design or style a web page. */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fortunately, we can reset the entire box model and specify a new one: border-box. In this box model, the height and width of the box will remain 
+fixed. The border thickness and padding will be included inside of the box, which means the overall dimensions of the box do not change. */
+* {
+  box-sizing: border-box;
+}
+
 /* Body */
   body {
     font-family:'Space Mono', Arial, Helvetica, sans-serif;
@@ -147,10 +159,36 @@ table {
   p {
     font-family:'Space Mono', Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
+
   }
   
-/* Unordered List (Bulletpoints) */
+/* Unordered List Text */
   li {
     font-family:'Space Mono', Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
   }
+
+/* Unordered List Bulletpoints */
+  ul {
+  padding-left: 40px;
+}
+
+/* AboutMe  */
+.AboutMe {
+  padding: 0px 20px;
+}
+
+/* Work Experience  */
+.WorkExperience {
+  padding: 0px 20px;
+}
+
+/* Contact  */
+.Contact {
+  padding: 0px 20px;
+}
+
+/* Footer  */
+.Footer {
+  padding: 0px 20px;
+}
