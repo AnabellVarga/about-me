@@ -18,11 +18,101 @@ fixed. The border thickness and padding will be included inside of the box, whic
   color: rgba(0, 0, 0, 0.5);
   }
 
+/* Head */
+
+.HeadPic {
+  max-height: 5%;
+  max-width: 5%;
+  margin: 15px 15px;
+}
+
+.HeadName {
+  position: absolute; /* Position text on top of the image */
+  top: 5%; 
+  left: 7%; 
+  color: rgb(12, 60, 99);
+  font-size: 15px; 
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+  position: absolute; /* Position text on top of the image */
+  top: 9.5%;
+  left: 49%; 
+  font-size: 15px;
+  font-weight: bold; 
+  }
+
+/* Seperate Links */
+.link1 {
+  text-decoration: none;
+  color: rgb(12, 60, 99);
+}
+
+.link1:hover {
+  color: rgb(151, 149, 149);
+}
+
+.link2 {
+  text-decoration: none;
+  color: rgb(12, 60, 99);
+}
+
+.link2:hover {
+  color: rgb(151, 149, 149);
+}
+
+.link3 {
+  text-decoration: none;
+  color: rgb(12, 60, 99);
+}
+
+.link3:hover {
+  color: rgb(151, 149, 149);
+}
+
+.link4 {
+  text-decoration: none;
+  color: rgb(12, 60, 99);
+}
+
+.link4:hover {
+  color: rgb(151, 149, 149);
+}
+
+.link5 {
+  text-decoration: none;
+  color: rgb(12, 60, 99);
+}
+
+.link5:hover {
+  color: rgb(151, 149, 149);
+} 
+
+.link6 {
+  text-decoration: none;
+  color: rgb(12, 60, 99);
+}
+
+.link6:hover {
+  color: rgb(151, 149, 149);
+}
+
+.link7 {
+  text-decoration: none;
+  color: rgb(12, 60, 99);
+}
+
+.link7:hover {
+  color: rgb(151, 149, 149);
+}
+
 /* Image on Top */
 .image-container {
   position: relative;
   width: 100%;
-  margin: 0 auto; /* Center the image */
+  margin: 0 auto;
   }
 
 .image-container img {
