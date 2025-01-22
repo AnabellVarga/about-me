@@ -24,6 +24,7 @@ fixed. The border thickness and padding will be included inside of the box, whic
   max-height: 5%;
   max-width: 5%;
   margin: 15px 15px;
+  object-fit: cover; /* Ensures proper resizing without distortion */
 }
 
 .HeadName {
@@ -35,8 +36,8 @@ fixed. The border thickness and padding will be included inside of the box, whic
 }
 
 .nav-links {
-  display: flex;
   gap: 35px;
+  display: flex;
   position: absolute; /* Position text on top of the image */
   top: 9.5%;
   left: 49%; 
